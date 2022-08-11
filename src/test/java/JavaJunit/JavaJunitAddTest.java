@@ -8,7 +8,8 @@ public class JavaJunitAddTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+    JavaJunitAdd a=new JavaJunitAdd();
+    assertEquals(10, a.add(5, 5));
 	}
 
 }
