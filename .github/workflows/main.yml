@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        working-directory: /home/ubuntu/JavaJunit
+        working-directory: /home/ubuntu/JavaJunit/JavaMavenJunit
         run: git pull
 
       # Runs a set of commands using the runners shell
