@@ -9,7 +9,7 @@ public class JavaJunitAddTest {
 	@Test
 	public void test() {
     JavaJunitAdd a=new JavaJunitAdd();
-    assertEquals(10, a.add(5, 5));
+    assertEquals(20, a.add(10, 10));
 	}
 
 }
